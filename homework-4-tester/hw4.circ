@@ -1161,4 +1161,31 @@ end TCL_Generic;
     </comp>
     <comp lib="4" loc="(800,70)" name="D Flip-Flop"/>
   </circuit>
+  <circuit name="alu">
+    <a name="circuit" val="alu"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="circuitvhdl" val="false"/>
+    <a name="circuitvhdlpath" val=""/>
+    <comp lib="0" loc="(220,180)" name="Pin">
+      <a name="width" val="16"/>
+      <a name="label" val="DataIn1"/>
+    </comp>
+    <comp lib="0" loc="(1260,190)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="16"/>
+      <a name="label" val="DataOut"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(210,470)" name="Pin">
+      <a name="width" val="3"/>
+      <a name="label" val="OpType"/>
+    </comp>
+    <comp lib="0" loc="(220,240)" name="Pin">
+      <a name="width" val="16"/>
+      <a name="label" val="DataIn2"/>
+    </comp>
+  </circuit>
 </project>
