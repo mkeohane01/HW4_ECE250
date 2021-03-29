@@ -771,7 +771,7 @@ end TCL_Generic;
     <comp lib="0" loc="(150,980)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="width" val="6"/>
-      <a name="label" val="imm"/>
+      <a name="label" val="Imm"/>
     </comp>
     <comp lib="0" loc="(680,590)" name="Tunnel">
       <a name="facing" val="north"/>
