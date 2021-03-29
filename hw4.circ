@@ -1233,7 +1233,6 @@ end TCL_Generic;
     </comp>
     <comp lib="0" loc="(740,50)" name="Probe">
       <a name="facing" val="south"/>
-      <a name="radix" val="10signed"/>
       <a name="label" val="r0"/>
     </comp>
     <comp lib="0" loc="(770,70)" name="Tunnel">
@@ -1310,7 +1309,6 @@ end TCL_Generic;
     <comp loc="(720,370)" name="Reg"/>
     <comp lib="0" loc="(750,120)" name="Probe">
       <a name="facing" val="south"/>
-      <a name="radix" val="10signed"/>
       <a name="label" val="r1"/>
     </comp>
     <comp lib="0" loc="(420,390)" name="Tunnel">
