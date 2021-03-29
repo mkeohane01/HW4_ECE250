@@ -130,9 +130,7 @@ end TCL_Generic;
       <a name="valign" val="base"/>
     </tool>
     <sep/>
-    <tool lib="0" name="Pin">
-      <a name="facing" val="north"/>
-    </tool>
+    <tool lib="0" name="Pin"/>
     <tool lib="0" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
@@ -1759,9 +1757,9 @@ end TCL_Generic;
       <rect fill="#5f519e" height="47" stroke="#000000" stroke-width="2" width="32" x="50" y="55"/>
       <circ-port height="8" pin="140,240" width="8" x="46" y="66"/>
       <circ-port height="8" pin="110,350" width="8" x="56" y="96"/>
-      <circ-port height="8" pin="110,390" width="8" x="46" y="86"/>
       <circ-port height="8" pin="110,500" width="8" x="66" y="96"/>
       <circ-port height="10" pin="110,760" width="10" x="75" y="75"/>
+      <circ-port height="8" pin="110,390" width="8" x="46" y="86"/>
       <circ-anchor facing="east" height="6" width="6" x="77" y="67"/>
     </appear>
     <wire from="(590,600)" to="(590,800)"/>
@@ -1885,6 +1883,9 @@ end TCL_Generic;
     </comp>
     <comp lib="0" loc="(1100,480)" name="Tunnel">
       <a name="label" val="ot12"/>
+    </comp>
+    <comp lib="0" loc="(110,390)" name="Pin">
+      <a name="label" val="WE"/>
     </comp>
     <comp lib="0" loc="(1030,620)" name="Tunnel">
       <a name="facing" val="east"/>
@@ -2021,9 +2022,6 @@ end TCL_Generic;
     <comp lib="0" loc="(530,280)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="label" val="in3"/>
-    </comp>
-    <comp lib="0" loc="(110,390)" name="Pin">
-      <a name="label" val="write_enable"/>
     </comp>
     <comp lib="0" loc="(770,380)" name="Tunnel">
       <a name="facing" val="east"/>
@@ -4703,7 +4701,7 @@ end TCL_Generic;
     </comp>
     <comp lib="0" loc="(430,610)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="r8"/>
+      <a name="label" val="r6"/>
     </comp>
     <comp lib="0" loc="(280,790)" name="Tunnel">
       <a name="label" val="J"/>
@@ -4849,7 +4847,7 @@ end TCL_Generic;
     </comp>
     <comp lib="0" loc="(430,650)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="r6"/>
+      <a name="label" val="r8"/>
     </comp>
     <comp lib="0" loc="(440,810)" name="Tunnel">
       <a name="facing" val="north"/>
@@ -5012,7 +5010,7 @@ end TCL_Generic;
     </comp>
     <comp lib="0" loc="(170,620)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="r9"/>
+      <a name="label" val="r11"/>
     </comp>
     <comp lib="0" loc="(410,490)" name="Tunnel">
       <a name="facing" val="north"/>
@@ -5020,7 +5018,7 @@ end TCL_Generic;
     </comp>
     <comp lib="0" loc="(170,580)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="r11"/>
+      <a name="label" val="r9"/>
     </comp>
     <comp lib="2" loc="(240,460)" name="Decoder">
       <a name="select" val="4"/>
